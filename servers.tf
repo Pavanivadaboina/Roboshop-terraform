@@ -19,7 +19,7 @@ resource "aws_instance" "frontend" {
 }
 
 resource "aws_route53_record" "frontend" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "frontend.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -37,7 +37,7 @@ resource "aws_instance" "mongo" {
 }
 
 resource "aws_route53_record" "mongo" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "mongo.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -55,7 +55,7 @@ resource "aws_instance" "catalogue" {
 }
 
 resource "aws_route53_record" "catalogue" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "catalogue.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -73,7 +73,7 @@ resource "aws_instance" "user" {
 }
 
 resource "aws_route53_record" "user" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "user.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -91,7 +91,7 @@ resource "aws_instance" "redis" {
 }
 
 resource "aws_route53_record" "redis" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "redis.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -109,7 +109,7 @@ resource "aws_instance" "cart" {
 }
 
 resource "aws_route53_record" "cart" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "cart.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -127,7 +127,7 @@ resource "aws_instance" "mysql" {
 }
 
 resource "aws_route53_record" "mysql" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "mysql.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -145,7 +145,7 @@ resource "aws_instance" "rabbitmq" {
 }
 
 resource "aws_route53_record" "rabbitmq" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "rabbitmq.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -163,7 +163,7 @@ resource "aws_instance" "shipping" {
 }
 
 resource "aws_route53_record" "shipping" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "shipping.devopspractice.tech"
   type    = "A"
   ttl     = 30
@@ -181,7 +181,7 @@ resource "aws_instance" "payment" {
 }
 
 resource "aws_route53_record" "payment" {
-  zone_id = Z01785992HNK9EWV1B0IH
+  zone_id = "Z01785992HNK9EWV1B0IH"
   name    = "payment.devopspractice.tech"
   type    = "A"
   ttl     = 30
