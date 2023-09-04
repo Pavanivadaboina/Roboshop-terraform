@@ -8,8 +8,7 @@ data "aws_security_group" "default" {
   name = "default"
 }
 
-variable "instance_type"
-{
+variable "instance_type" {
   default = "t3.small"
 }
 
